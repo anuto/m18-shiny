@@ -1,11 +1,13 @@
 #INFO 201 M18 Exercise 5 Server
 
 #Require the following: shiny, HSUAR, dyplr, and ggplot2
-
+require(shiny)
+require(HSAUR)
+require(dplyr)
+require(ggplot2)
 
 #Load the dataset 'womensrole' from the HSUAR package (same way you would load a built in dataset)
-
-
+df <- womensrole
 
 #Here you will define the data that is shown based on your inputs defined in the UI
 #and turn it into an output plot
@@ -19,14 +21,16 @@ shinyServer(function(input, output) {
     #The x axis will be the level of education
     #The y axis will be the level of agreement or disagreement
     #The dataset used will be filtered by sex
-    
-    
+    x <- womensrole$education
+    y <- womensrole$disagree
+  })
     #Filter the dataset based on whether the input is Men, Women, or Both
-
+    input$inputID
   
     
     #Define a y axis value based on the input Agree or Disagree
 
+    
     
     #Using the values you just defined, construct a scatterplot using ggplot2
     #x will be defined by education, y by agree/disagree
