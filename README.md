@@ -1,6 +1,6 @@
 # Shiny
 <pre>
-In this (brief) learning module, we introduce the Shiny framework for building interactive applications in R. Shiny provides a structure for communicating between a user-interface (i.e., a web-browser) and an R session. This not only enables developers to create <b>interactive</b> graphics, but provides a way for users to interact directly with a R session (without writing any code!).
+In this (brief) learning module, we introduce the Shiny framework for building interactive applications in R. Shiny provides a structure for communicating between a user-interface (i.e., a web-browser) and an R session. This not only enables developers to create `interactive` graphics, but provides a way for users to interact directly with a R session (without writing any code!).
 </pre>
 
 Helpful links:
